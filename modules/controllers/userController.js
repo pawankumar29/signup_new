@@ -1,0 +1,9 @@
+  
+
+class userController{
+
+  postData=async()
+
+
+
+}
