@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            position: absolute;
+             left:33%;
+             top: 40%;
+             border: 1px solid black;
+             background-color: aquamarine;
+             padding:40px 50px;
+             text-align: center;
+        }
+
+        input{
+            background-color: aliceblue;
+        }
+
+      
+
+    </style>
+</head>
+<body>
+    
+    <form action="/v1/login" method="post">
+        <table>
+        <tr><th>
+            <h4>Name</h4> 
+        </th>
+
+        <th><input type="text" name="name"></th>
+        </tr>
+
+        <tr><th>
+           Email
+        </th>
+
+        <th><input type="text" name="gmail"></th>
+        </tr>
+         
+        </table>
+        <button class="signup">Login</button>
+    </form>
+</body>
+</html>
